@@ -1,0 +1,21 @@
+.characterContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.characterBox {
+  height: 350px;
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  margin: 20px;
+}
+.characterBox img {
+  height: 100%;
+  width: 100%;
+}
+.characterBox p {
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}

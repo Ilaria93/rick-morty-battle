@@ -1,0 +1,28 @@
+.main {
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100%;
+}
+.main > :first-child {
+  grid-column-end: 3;
+  grid-column-start: 1;
+}
+.option {
+  align-items: center;
+  border-radius: 5px;
+  background-color: #821400;
+  border: 1px solid black;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+}
+
+.option:hover {
+  background-color: #fd9401;
+}
